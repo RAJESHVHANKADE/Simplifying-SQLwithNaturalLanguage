@@ -14,7 +14,7 @@ Common challenges include:
 
 * Limited SQL knowledge among business teams
 * Dependence on technical teams for reporting
-* Time-consuming data retrieval processes
+* Time-consuming data retrieval processes 
 * Difficulty translating business questions into SQL queries
 
 ---
