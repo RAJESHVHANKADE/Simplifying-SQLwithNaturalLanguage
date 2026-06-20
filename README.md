@@ -6,6 +6,38 @@ The solution combines Natural Language Processing (NLP), transformer-based model
 
 ---
 
+# Architecture
+
+```mermaid
+flowchart LR
+
+    A[User Query]
+
+    B[Text Preprocessing]
+
+    C[NLP Model]
+
+    D[Intent Understanding]
+
+    E[SQL Generation]
+
+    F[SQL Validation]
+
+    G[Database]
+
+    H[Query Result]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+```
+
+
+
 ## Business Problem
 
 Organizations store large amounts of information in relational databases. Accessing this information often requires knowledge of SQL, which creates a barrier for business users.
@@ -58,35 +90,7 @@ This enables users to interact with structured databases through conversational 
 
 ---
 
-# Architecture
 
-```mermaid
-flowchart LR
-
-    A[User Query]
-
-    B[Text Preprocessing]
-
-    C[NLP Model]
-
-    D[Intent Understanding]
-
-    E[SQL Generation]
-
-    F[SQL Validation]
-
-    G[Database]
-
-    H[Query Result]
-
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-    G --> H
-```
 
 ---
 
